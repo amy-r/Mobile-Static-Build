@@ -3,6 +3,7 @@
 html {
   width: 100%;
 }
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -15,20 +16,26 @@ header {
   text-align: center;
 }
 
+
 h2 {
-  font-size: 18px;
+  font-size: 1em;
+  margin-top: 20%;
+  padding-top: 10%; 
 }
 
 h3 {
   font-weight: 400;
+  text-align: center;
 }
 
 header p{
   margin-bottom: 0;
+  padding-bottom: 5%
 }
 
 header h1{
   margin-top: 0;
+  padding-top: 5%;
 }
 
 .health-log {
@@ -42,11 +49,20 @@ table {
 }
 
 td {
-  padding: 10px;
+  padding: 2%;
 }
 
-.bar-graph{
-  height: 100px;
+#circle {
+  height: 150px;
+  margin: auto;
+  margin-bottom: 25%;
+  display: block;
+}
+
+.bar-graph {
+  height: 150px;
+  margin: auto;
+  display: block;
 }
 
 .metrics {
@@ -59,11 +75,13 @@ td {
 }
 
 .area {
-  height: 100px;
+  height: 50px;
+  margin-bottom: 10%;
 }
 
 .time-graph {
   display: inline-block;
+  margin-left: 5%;
 }
 
 .circle-graph{
@@ -71,6 +89,10 @@ td {
 }
 
 .bike-workout {
+  margin: auto;
+}
+
+.bottom-table {
   margin: auto;
 }
 
